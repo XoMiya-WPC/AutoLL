@@ -9,30 +9,10 @@ namespace AutoLL
 {
     public class AutoLL : Plugin<Config>
     {
-        public override string Name
-        {
-            get
-            {
-                return "AutoLL";
-            }
-        }
-            public override string Author
-        {
-            get
-            {
-                return "XoMiya-WPC";
-            }
-        }
-       
+        public override string Name { get; } =  "AutoLL";
+        public override string Author { get; } = "XoMiya-WPC";
         public override string Prefix { get; } = "Auto_Lobby_Lock";
-
-        public override Version Version
-        {
-            get
-            {
-                return new Version(1, 0, 0);
-            }
-        }
+        public override Version Version { get; } = new Version("1.0.1");
         public override PluginPriority Priority { get; } = PluginPriority.Medium;
         private ServerEventHandlers server;
         private PlayerEventHandlers player;
