@@ -4,6 +4,9 @@
 A Simple Plugin for EXILED that adds Lobby Config.
 Adds the Smod2 Config allowing lobbies to be locked unless a certain number of players have joined.
 
+<h1>Requirements</h1>
+This plugin requires EXILED 2.11.1 
+You can try other versions but do not blame me if it doesn't work :)
 <h1>Config</h1>
 
 | Config  | Type | Value |
