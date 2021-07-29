@@ -14,4 +14,10 @@ You can try other versions but do not blame me if it doesn't work :)
 | IsEnabled  | Boolean  | true  |
 | MinPlayersToStart  | Integer  | 4  |
 
-Thanks to SomewhatSane for helping me code this
+<h1>Info & Contact</h1>
+This plugin was requested on the Exiled Discord Server.
+
+Thanks to SomewhatSane for helping me code this.
+
+For help or issues Contact me on Discord @ XoMiya#0113 or join my discord (https://discord.gg/rVX49ss)
+
