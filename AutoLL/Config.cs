@@ -8,6 +8,9 @@ namespace AutoLL
         [Description("Is the plugin Enabled? - Accepts Bool (Def: true)")]
         public bool IsEnabled { get; set; } = true;
 
+        [Description("Should Debug be enabled? - Accepts Bool (Def: false")]
+        public bool EnableDebug { get; set; } = false;
+
         [Description("The MINIMUM number of players required for the lobby to unlock allowing the round to start - Accepts Whole Values from 1 to Max (Def: 4)")]
         public int MinPlayersToStart { get; set; } = 4;
     }

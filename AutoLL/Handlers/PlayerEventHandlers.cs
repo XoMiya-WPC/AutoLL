@@ -20,12 +20,12 @@ namespace AutoLL.Handlers
             if (Player.List.Count() < plugin.Config.MinPlayersToStart && !RoundStart.LobbyLock)
             {
                 RoundStart.LobbyLock = true;
-                Log.Info($"Server Player Count ({Player.List.Count()}) is Less than Configured ({plugin.Config.MinPlayersToStart}) - Lobby Lock Enabled");
+                Log.Debug($"Server Player Count ({Player.List.Count()}) is Less than Configured ({plugin.Config.MinPlayersToStart}) - Lobby Lock Enabled", plugin.Config.EnableDebug);
             }
             else if (Player.List.Count() >= plugin.Config.MinPlayersToStart && RoundStart.LobbyLock)
             {
                 RoundStart.LobbyLock = false;
-                Log.Info($"Server Player Count ({Player.List.Count()}) is Greater than or Equal to Configured ({plugin.Config.MinPlayersToStart}) - Lobby Lock Disabled");
+                Log.Debug($"Server Player Count ({Player.List.Count()}) is Greater than or Equal to Configured ({plugin.Config.MinPlayersToStart}) - Lobby Lock Disabled", plugin.Config.EnableDebug);
             }
         }
 

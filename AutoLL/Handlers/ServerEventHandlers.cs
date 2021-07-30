@@ -15,7 +15,7 @@ namespace AutoLL.Handlers
 
         public void OnWaitingForPlayers()
         {
-            Log.Info("Waiting For Players...");
+            Log.Debug("Waiting For Players...", plugin.Config.EnableDebug);
            
         }
 
