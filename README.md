@@ -12,6 +12,7 @@ You can try other versions but do not blame me if it doesn't work :)
 | Config  | Type | Value |
 | ------------- | ------------- | ------------- |
 | IsEnabled  | Boolean  | true  |
+| EnableDebug  | Boolean  | false  |
 | MinPlayersToStart  | Integer  | 4  |
 
 <h1>Info & Contact</h1>
