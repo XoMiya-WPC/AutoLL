@@ -22,3 +22,4 @@ Thanks to SomewhatSane for helping me code this.
 
 For help or issues Contact me on Discord @ XoMiya#0113 or join my discord (https://discord.gg/DxWXw9jmXn)
 
+![img](https://img.shields.io/github/downloads/XoMiya-WPC/AutoLL/total?style=for-the-badge)
