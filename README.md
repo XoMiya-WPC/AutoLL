@@ -20,6 +20,6 @@ This plugin was requested on the Exiled Discord Server.
 
 Thanks to SomewhatSane for helping me code this.
 
-For help or issues Contact me on Discord @ XoMiya#0113 or join my discord (https://discord.gg/DxWXw9jmXn)
+For help or issues Contact me on Discord @ XoMiya#6113 or join my discord (https://discord.gg/js4W9M5Csq)
 
 ![img](https://img.shields.io/github/downloads/XoMiya-WPC/AutoLL/total?style=for-the-badge)
